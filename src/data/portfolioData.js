@@ -3,8 +3,8 @@ export const portfolioData = {
     name: "Dhaneshwari Nerti",
     title: "Cloud & DevOps Engineer",
     tagline: "Engineering Graduate passionate about AWS Cloud, DevOps, Infrastructure Automation, Linux, Docker, and Kubernetes.",
-    resumeUrl: "/assets/resume.pdf", 
-    profilePhotoUrl: "/assets/profile.jpeg",
+    resumeUrl: "./assets/resume.pdf", 
+    profilePhotoUrl: "./assets/profile.jpeg",
     socials: {
       github: "https://github.com/daneshwarinerti",
       linkedin: "https://www.linkedin.com/in/dhaneshwari-nerti",
@@ -69,7 +69,7 @@ export const portfolioData = {
         "Application Load Balancer (ALB) routing and secure Security Groups"
       ],
       technologies: ["AWS", "CloudFormation", "EC2", "VPC", "ALB", "Auto Scaling"],
-      imageUrl: "/assets/projects/aws-automation.png",
+      imageUrl: "./assets/projects/aws-automation.png",
       githubUrl: "https://github.com/daneshwarinerti/cloudformation-project",
       liveUrl: "https://github.com/daneshwarinerti/cloudformation-project"
     },
@@ -84,7 +84,7 @@ export const portfolioData = {
         "Copying processed images to a destination bucket and logging stats to CloudWatch"
       ],
       technologies: ["AWS Lambda", "Amazon S3", "CloudWatch", "IAM", "Python"],
-      imageUrl: "/assets/projects/image-pipeline.png",
+      imageUrl: "./assets/projects/image-pipeline.png",
       githubUrl: "https://github.com/daneshwarinerti/aws-image-processing",
       liveUrl: "https://github.com/daneshwarinerti/aws-image-processing"
     },
@@ -99,7 +99,7 @@ export const portfolioData = {
         "ECS Service orchestration, Load Balancer rules, and rolling deployments"
       ],
       technologies: ["Docker", "Amazon ECS", "Amazon ECR", "AWS"],
-      imageUrl: "/assets/projects/ecs-deployment.png",
+      imageUrl: "./assets/projects/ecs-deployment.png",
       githubUrl: "https://github.com/daneshwarinerti/ecs-project",
       liveUrl: "https://github.com/daneshwarinerti/ecs-project"
     },
@@ -114,7 +114,7 @@ export const portfolioData = {
         "Docker container deployments and multi-container coordination"
       ],
       technologies: ["PHP", "MySQL", "Docker"],
-      imageUrl: "/assets/projects/attendance-system.png",
+      imageUrl: "./assets/projects/attendance-system.png",
       githubUrl: "https://github.com/daneshwarinerti/attendance-management",
       liveUrl: "https://github.com/daneshwarinerti/attendance-management"
     }
@@ -123,7 +123,7 @@ export const portfolioData = {
     {
       role: "Intern",
       company: "Infobell IT Solutions Pvt. Ltd.",
-      companyLogo: "/assets/infobell-logo.png",
+      companyLogo: "./assets/infobell-logo.png",
       location: "Bengaluru, Karnataka, India",
       duration: "February 2026 – May 2026 (4 Months)",
       description: "Worked as a Cloud & DevOps Intern, gaining practical experience in AWS cloud services, Linux administration, networking, infrastructure automation, and deployment workflows. Collaborated on real-world infrastructure tasks while learning industry best practices for cloud operations and DevOps.",
